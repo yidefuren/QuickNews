@@ -1,0 +1,7 @@
+<!--pages/me/me.wxml-->
+<view class="container">
+<view class="face-container">
+  <open-data type="userAvatarUrl" class="face"></open-data>
+  <open-data  type="userNickName" class="nickname"></open-data>
+</view>
+</view>

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="timeline">
+
+ <view class="timeline-item" wx:for="{{news}}" wx:key="unique" >
+    <view class="line"></view>
+    <view class="dot"></view>
+    <view class="waraper">
+      <view class="date">{{item.time}}</view>
+      <view class="card is-always-shadow">
+        <view class="card-body">
+          {{item.title}}
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

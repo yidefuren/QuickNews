@@ -1,0 +1,27 @@
+/* pages/me/me.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#1989fa;
+  height: 400rpx;
+}
+.face-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  top: 150rpx;
+}
+
+.face{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.nickname{
+  margin-top: 20rpx;
+}

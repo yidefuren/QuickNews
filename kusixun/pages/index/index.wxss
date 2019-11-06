@@ -1,0 +1,59 @@
+.timeline {
+  margin-top: 60rpx;
+  padding: 20rpx;
+}
+
+.timeline-item {
+  position: relative;
+    padding-bottom: 40rpx;
+}
+
+.timeline-item .dot {
+  position: absolute;
+  background-color: #1989fa;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -2rpx;
+  width: 24rpx;
+  height: 24rpx;
+}
+
+.timeline-item .line {
+  position: absolute;
+  left: 8rpx;
+  height: 100%;
+  border-left: 4rpx solid #e4e7ed;
+}
+
+.timeline-item .waraper {
+  position: relative;
+  padding-left: 40rpx;
+  top: -6px;
+}
+.waraper .date{
+  color: #909399;
+    line-height: 1;
+    font-size: 13px;
+    margin-bottom: 16rpx;
+    padding-top: 8rpx;
+}
+.waraper .card{
+  border-radius: 8rpx;
+    border: 2rpx solid #ebeef5;
+    background-color: #fff;
+    overflow: hidden;
+    color: #303133;
+    transition: .3s;
+    
+}
+.waraper .is-always-shadow{
+    box-shadow: 0 4px 24rpx 0 rgba(0,0,0,.1);
+}
+.card-body{
+  padding: 40rpx;
+  font-size: 28rpx;
+  color: #5e6d82;
+  line-height: 1.5em;
+}
